@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const servicios = [
+const servicios = [
     
     {
         id:"1",
@@ -15,3 +15,5 @@ export const servicios = [
         descripcion: "2descripcion",
     }
 ]
+
+export default servicios;
