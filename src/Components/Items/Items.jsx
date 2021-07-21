@@ -1,10 +1,9 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
 import ItemCount from "../ItemCount/ItemCount";
+import { } from 'react';
 
-
-
-    function Items ({productos}) {
+export const Items = ({productos}) => {
 
         return (
             <div>
@@ -23,5 +22,3 @@ import ItemCount from "../ItemCount/ItemCount";
             </div>
         );  
     }
-
-export default Items;
